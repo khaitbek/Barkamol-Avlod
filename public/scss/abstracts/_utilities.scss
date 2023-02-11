@@ -1,0 +1,23 @@
+@use "../base/colors";
+
+// shade -> primary, danger, etc...
+// property -> 100:#fff, etc...
+@each $shade, $property in colors.$colors {
+    @each $level, $color in $property {
+        .bg-#{$shade}-#{$level} {
+            background-color: #{$color};
+        }
+        .text-#{$shade}-#{$level} {
+            color: #{$color};
+        }
+    }
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: var(--clr-main, #FFF);
+}

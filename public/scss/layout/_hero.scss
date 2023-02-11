@@ -1,0 +1,30 @@
+.hero {
+    padding-top: 30px;
+    padding-bottom: 115px;
+}
+
+.hero-wrapper {
+    max-width: 605px;
+    margin-left: auto;
+}
+
+.hero-title {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 53px;
+    font-family: "Montserrat";
+    color: var(--clr-primary-100);
+}
+
+.hero-text {
+    margin-bottom: 24px;
+    font-size: 17px;
+    line-height: 24px;
+    color: var(--clr-primary-100);
+}
+
+.hero-btn {
+    padding: 20px 23px;
+    border-radius: 100vmax;
+}

@@ -1,0 +1,30 @@
+@use "../abstracts/mixins";
+
+.site-header {
+    padding-block: 30px 25px;
+}
+
+.header-wrapper{
+    @include mixins.flexbox(none, center, row, 0px);
+}
+
+.site-logo{
+    width: 200px;
+    height: 40px;
+    margin-right: 128px;
+}
+
+.navigation-list {
+    @include mixins.flexbox(none, center, row, 30px);
+}
+.navigation-item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.navigation-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 48px;
+}
