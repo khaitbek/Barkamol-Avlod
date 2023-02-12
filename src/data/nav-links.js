@@ -1,26 +1,49 @@
-export default NavLinks = [
+const NavLinks = [
     {
-        title: "Biz haqimizda",
-        to: "/"
-    }
+        title: "Maktab",
+        dropdown: [
+            "Dropdown 1",
+            "Dropdown 2",
+            "Dropdown 3",
+            "Dropdown 4",
+        ]
+    },
     {
-        title: "BABM hayoti",
-        to: "/"
-    }
+        title: "Hujjatlar",
+        dropdown: [
+            "Dropdown 1",
+            "Dropdown 2",
+            "Dropdown 3",
+            "Dropdown 4",
+        ]
+    },
     {
-        title: "Foydali manbalar",
-        to: "/"
-    }
+        title: "Ta’lim yo’nalishlari",
+        dropdown: [
+            "Dropdown 1",
+            "Dropdown 2",
+            "Dropdown 3",
+            "Dropdown 4",
+        ]
+    },
     {
-        title: "Matbuot xizmati",
-        to: "/"
-    }
+        title: "Faoliyat",
+        dropdown: [
+            "Dropdown 1",
+            "Dropdown 2",
+            "Dropdown 3",
+            "Dropdown 4",
+        ]
+    },
     {
-        title: "Aloqa",
-        to: "/"
-    }
-    {
-        title: "Ochiq ma’lumotlar",
-        to: "/"
+        title: "Axborot xizmati",
+        dropdown: [
+            "Dropdown 1",
+            "Dropdown 2",
+            "Dropdown 3",
+            "Dropdown 4",
+        ]
     }
 ]
+
+export default NavLinks
